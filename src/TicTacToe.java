@@ -209,6 +209,19 @@ public class TicTacToe implements ActionListener {
         ) {
             oWins(2, 4, 6);
         }
+        else if( (buttons[0].getText() != "") &&
+                (buttons[1].getText() != "") &&
+        (buttons[3].getText() != "")&&
+        (buttons[4].getText() != "")&&
+        (buttons[5].getText() != "")&&
+        (buttons[6].getText() != "")&&
+        (buttons[7].getText() != "")&&
+        (buttons[8].getText() != "")&&
+        (buttons[2].getText() != "")
+
+    ) {
+           textfield.setText(" Draw Match");
+        }
     }
 
     public void xWins(int a, int b, int c) {
